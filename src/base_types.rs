@@ -1,4 +1,4 @@
-// use mathml::MathNode;
+use mathml::MathNode;
 #[cfg(feature = "default")]
 use pyo3::prelude::*;
 use serde::{Deserialize, Serialize, Serializer};
